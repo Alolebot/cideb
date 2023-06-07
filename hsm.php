@@ -1,6 +1,6 @@
 <?php
 ob_start();
-$HSON = "0000";
+HSON دولار  =  "6031420561:AAHT_H0TpZpvTPt3Ucb-6bg76QeLGt9zru8" ؛
 define('API_KEY',$HSON);
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
 function bot($ailkreembot,$BOTHSO=[]){
